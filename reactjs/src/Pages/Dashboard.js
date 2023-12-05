@@ -137,13 +137,14 @@ export default Dashboard;
 const styles = {
   container: {
     display: "flex",
-    flexDirection: "row",
+    flexDirection: "column",
     alignItems: "center",
     justifyContent: "center",
     gap: "2rem",
     height: "100vh",
     backgroundColor: "#f5f5f5",
   },
+
   form: {
     display: "flex",
     flexDirection: "column",
